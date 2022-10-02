@@ -1,0 +1,58 @@
+.create-event-box1{
+    padding: 60px;
+    background: #F6F2FF;
+}
+
+.create-event-innerbox{
+    border-radius: 30px;
+    width: 40%;
+    padding: 30px;
+    padding-bottom: 60px;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.create-event-innerbox h1{
+    background: -webkit-linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    -webkit-background-clip: text;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+}
+
+.create-event-innerbox h2{
+    margin-bottom: 1.5%;
+    text-align: left;
+    font-size: 20px;
+    background: -webkit-linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.input{
+    width: 100%;
+    border-bottom: 1px solid #E87BF8;
+    outline: none;
+}
+
+.date{
+    float: left;
+}
+
+input{
+    padding: 10px;
+    float: left;
+}
+
+.proceed-btn{
+    width: 30%;
+    padding: 9px;
+    border-radius: 10px;
+    border: none;
+    font-size: medium;
+    font-weight: 600;
+    letter-spacing: 3px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    color: white;
+    cursor: pointer;
+}

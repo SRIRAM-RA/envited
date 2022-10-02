@@ -1,0 +1,152 @@
+/* ANIMATION */
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    /* color: #0087ca; */
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #F2668B;
+    /* color: #F2668B; */
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+
+
+/* Custom scrollbar */
+::-webkit-scrollbar{
+    width: 4px;
+}
+
+::-webkit-scrollbar-track{
+    background-color: #e8bbef;
+}
+
+::-webkit-scrollbar-thumb{
+    background-color: #8456EC;
+    border-radius: 30px;
+}
+
+
+/* NAVBAR */
+.nav-outer-box{
+    text-align: left;
+    padding: 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+}
+
+.nav-outer-box h1{
+    background: -webkit-linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    -webkit-background-clip: text;
+    margin: 0;
+    -webkit-text-fill-color: transparent;
+}
+
+.nav-outer-box button{
+    width: 10%;
+    font-size: medium;
+    border-radius: 15px;
+    outline: none;
+    border: 1px solid #E87BF8;
+    background-image: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    font-weight: 600;
+    transition: all 0.5s;
+}
+
+.nav-outer-box button:hover{
+    color: white;
+}
+
+/* BOX 1 CSS */
+.box1{
+    padding: 60px;
+    background-color: #F6F2FF;
+}
+
+.inner-box1{
+    display: flex;
+    flex-direction: row;
+    /* background-color: aliceblue; */
+}
+
+.box1-image-box{
+    width: 60%;
+    align-items: center;
+}
+
+.sample-image{
+    width: 40%;
+}
+
+.box1-text-box{
+    width: 30%;
+    /* align-items: center; */
+    padding-top: 50px;
+}
+
+.box1-text-box h1{
+    /* width: 50%; */
+    float: right;
+    margin-bottom: 2%;
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 64px;
+    text-align: right;
+    color: #240D57;
+}
+
+.box1-text-box p{
+    float: right;
+    /* width: 90%; */
+    font-family: 'Helvetica';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 28px;
+    text-align: right;
+    color: #4F4F4F;
+}
+
+.highlight{
+    background: linear-gradient(90deg, #8456EC 24.2%, #E87BF8 120.46%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    text-fill-color: transparent;
+}
+
+.create-event{
+    float: right;
+    width: 65%;
+    text-align: center;
+    font-size: large;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    background: linear-gradient(90deg, #8456EC 3.25%, #E87BF8 100%);
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-weight: 600;
+}
+
+.create-event:hover{
+    cursor: pointer;
+}
